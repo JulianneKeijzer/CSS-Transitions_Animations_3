@@ -1,0 +1,14 @@
+/*Make sure that the Batman logo covers over the joker using the Transform property*/
+
+.batman{
+    position: relative;
+    top: 0;
+    left: 0;
+    transform: rotateZ(270deg) translate(-500px, 1000px) scale(9); 
+}
+  
+.joker{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
